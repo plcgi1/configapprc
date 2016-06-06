@@ -31,7 +31,7 @@
     "url": "git://github.com/plcgi1/confapprc.git"
   },
   "keywords": [
-    "confapprc"
+    "confapprc","private config variables","config"
   ],
   "engines": {
     "node": ">= 0.8.0"
