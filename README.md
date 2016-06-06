@@ -1,11 +1,11 @@
-confapprc [![Build Status](https://secure.travis-ci.org/fengmk2/confapprc.png)](http://travis-ci.org/fengmk2/confapprc) [![Coverage Status](https://coveralls.io/repos/fengmk2/confapprc/badge.png)](https://coveralls.io/r/fengmk2/confapprc)
-=======
+confapprc
 
-![logo](https://raw.github.com/fengmk2/confapprc/master/logo.png)
+=======
 
 Description
 
-* jscoverage: [100%](http://fengmk2.github.com/coverage/confapprc.html)
+If you dont want to keep some private variables(passwords,auth keys etc) in your application repository - you can use the module
+
 
 ## Install
 
@@ -16,18 +16,15 @@ $ npm install confapprc
 ## Usage
 
 ```js
-var confapprc = require('confapprc');
-
-confapprc.foo(function (err) {
-  
-});
+var rc = require('confapprc');
+var config = parse({ private : PATH-TO-PRIVATE-CONFIG.json, public : PATH-TO-PUBLIC.json })
 ```
 
 ## License 
 
 (The MIT License)
 
-Copyright (c) 2013 fengmk2 &lt;fengmk2@gmail.com&gt;
+Copyright (c) 2016 plcgi1 &lt;plcgi1@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
